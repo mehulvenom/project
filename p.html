@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>project</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        herf="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"
+        integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/4001a762e2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="banner">
+        <nav>
+            <a href="#"><img src="logo.jpg"></a>
+            <div class="navbar" id="navlinks">
+
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="p.html">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-sort-desc" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>
+                The Hub of Tutorial
+            </h1>
+            <br>
+            <a href="home.html" class="button">Start learing</a>
+        </div>
+
+    </section>
+    <!----------Cousre section----------->
+    <section class="course">
+        <h1>
+            Subject we offer
+        </h1>
+        <p>
+            A small river named Duden flows by their place and supplies it with the necessary regelialia
+        </p>
+        <div class="row">
+            <div class="subject">
+                <h3>OS</h3>
+                <p>An operating system acts as an intermediary between the user of a computer and computer hardware. The
+                    purpose of an operating system is to provide an environment in which a user can execute programs
+                    conveniently and efficiently. </p>
+
+
+            </div>
+            <div class="subject">
+                <h3>ITM</h3>
+                <p>Internet refers to network of networks.In this network each computer is recognized by a globally
+                    unique address known as IP address.A special computer DNS is used to give name to the IP Address so
+                    that user can locate a computer by a name. </p>
+
+
+            </div>
+            <div class="subject">
+                <h3>DM</h3>
+                <p>Discrete mathematics is the branch of mathematics dealing with objects that can consider only
+                    distinct, separated values. This tutorial includes the fundamental concepts of
+                    Sets,Relations,Functions,Group theory,Recurrence Relations,Boolean Algebra. </p>
+            </div>
+        </div>
+        <div class="row_two">
+            <div class="subject_two">
+                <h3>DAA</h3>
+                <p>Our DAA Tutorial includes all topics of algorithm,asymptotic analysis,algorithm control
+                    structure,recurrence,master method,recursion tree method,simple sorting algorithm,selection
+                    sort,divide
+                    and conquer,binary search,merge sort,etc. </p>
+            </div>
+            <div class="subject_two">
+                <h3>OB</h3>
+                <p>
+
+                    Internal and external perspectives are the two theories of how organizational behavior can be viewed
+                    from an organization’s point of view. In this tutorial, we will be learning in detail about both the
+                    theories.. </p>
+            </div>
+            <div class="subject_two">
+                <h3>EVS</h3>
+                <p>environmental science, interdisciplinary academic field that draws on ecology, geology, meteorology,
+                    biology, chemistry, engineering, and physics to study environmental problems and human impacts on
+                    the environment.. </p>
+            </div>
+
+
+        </div>
+    </section>
+    <!-------contact us------------------->
+    <section class="cnt">
+        <h1>
+            For Any Qurry
+        </h1>
+        <a href="" class="button">CONTACT US</a>
+
+
+
+
+    </section>
+    <!-------------About us ------------->
+    <section class="about">
+        <h4>
+            About us
+        </h4>
+        <p>
+            We love what we do and we do what our clients love & work with great clients all over the world to create
+            thoughtful and purposeful websites.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by ERROR 505</p>
+    </section>
+
+
+
+
+
+
+
+
+    <!--------script for close and menu button-------->
+
+
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>
